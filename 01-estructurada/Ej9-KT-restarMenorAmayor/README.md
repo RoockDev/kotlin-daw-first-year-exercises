@@ -1,0 +1,1 @@
+# Leídos dos números por teclado, restar al mayor el menor. Por ejemplo, si A=9 y B=3 entonces se debe mostrar: “El primero es mayor y la resta es 6”.

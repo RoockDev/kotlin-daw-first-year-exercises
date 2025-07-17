@@ -1,0 +1,1 @@
+# Dados dos números enteros, realizar el algoritmo que calcule el cociente y el resto mediante restas sucesivas.

@@ -1,0 +1,1 @@
+# Calcula la raíz cuadrada de un número que pedimos por teclado, teniendo la precaución de que el número no sea negativo; en este caso se debe informar de que la operación no es posible.

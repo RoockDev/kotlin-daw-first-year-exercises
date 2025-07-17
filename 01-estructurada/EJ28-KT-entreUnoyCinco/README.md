@@ -1,0 +1,1 @@
+# Piensa un algoritmo que pida números hasta que el número leído esté entre 1 y 5, en ese momento se debe salir.

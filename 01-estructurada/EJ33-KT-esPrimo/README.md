@@ -1,0 +1,1 @@
+# Determinar si un número introducido por teclado es primo o no. Un número primo solo es divisible por él mismo y por la unidad.

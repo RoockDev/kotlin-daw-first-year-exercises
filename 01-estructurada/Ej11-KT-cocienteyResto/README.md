@@ -1,0 +1,1 @@
+# Diseña un algoritmo que determine si tres números que pedimos por teclado están ordenados de menor a mayor (NO consiste en ordenar, solo indicar si están ordenados o no).
