@@ -1,0 +1,1 @@
+# Diseña un algoritmo que pida números hasta que se le introduzca un número mayor que 100.

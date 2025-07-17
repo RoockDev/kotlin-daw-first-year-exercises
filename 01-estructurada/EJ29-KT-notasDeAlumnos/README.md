@@ -1,0 +1,1 @@
+# Realiza un algoritmo que introducidas las notas de N alumnos nos indicará cuantos aprobados y cuantos suspensos hay. Generaliza este ejercicio para una cantidad indefinida de notas (pararemos con una nota negativa). Amplia el ejercicio indicando no solo cuantos aprobados hay, también cuantos sobresalientes, notables, bienes, aprobados y suspensos.

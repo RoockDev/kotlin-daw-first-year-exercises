@@ -1,0 +1,1 @@
+# Realiza un conversor de grados Centígrados a grados Farenheit. Nuestro algoritmo debe poder hacer la conversión en ambos sentidos.

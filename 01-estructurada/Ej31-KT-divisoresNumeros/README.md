@@ -1,0 +1,1 @@
+# Diseña un algoritmo que muestre todos los divisores de un número. Ejemplo, si el usuario introduce un 12, el programa mostrará: 2,3,4,6. Si no tuviera divisores no mostrará nada, se valora que muestre al final un mensaje “no tiene divisores” caso de ocurrir.
