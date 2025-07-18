@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.crudjavafxbbdd.RegistroController">
+   <children>
+      <Label layoutX="217.0" layoutY="21.0" prefHeight="17.0" prefWidth="184.0" text="Ventana de Registro">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="79.0" prefHeight="17.0" prefWidth="56.0" text="Email" />
+      <Label layoutX="102.0" layoutY="112.0" prefHeight="17.0" prefWidth="45.0" text="Nombre" />
+      <Label layoutX="99.0" layoutY="153.0" text="Apellidos" />
+      <Label layoutX="103.0" layoutY="192.0" text="Edad" />
+      <Label layoutX="97.0" layoutY="232.0" text="Password" />
+      <Label fx:id="LblError" layoutX="190.0" layoutY="325.0" prefHeight="49.0" prefWidth="200.0" />
+      <TextField fx:id="TxtEmail" layoutX="200.0" layoutY="67.0" promptText="introduce email" />
+      <TextField fx:id="TxtNombre" layoutX="200.0" layoutY="108.0" prefHeight="25.0" prefWidth="161.0" promptText="inrtoduce nombre" />
+      <TextField fx:id="TxtApellidos" layoutX="200.0" layoutY="149.0" promptText="introduce apellidos" />
+      <TextField fx:id="TxtEdad" layoutX="200.0" layoutY="188.0" promptText="introduce edad" />
+      <Button fx:id="BtnRegistrar" layoutX="190.0" layoutY="274.0" mnemonicParsing="false" onAction="#onRegistrarButtonClick" prefHeight="35.0" prefWidth="78.0" text="Registrar" />
+      <Button fx:id="BtnCancelar" layoutX="300.0" layoutY="274.0" mnemonicParsing="false" onAction="#onCancelarButtonClick" prefHeight="35.0" prefWidth="78.0" text="Cancelar" />
+      <PasswordField fx:id="TxtPasword" layoutX="200.0" layoutY="228.0" promptText="Introduce Password" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="339.0" prefWidth="437.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.viaje.viaje22.AltaController">
+    <children>
+        <DatePicker fx:id="dpFecha" layoutX="116.0" layoutY="154.0" prefHeight="25.0" prefWidth="150.0" />
+        <CheckBox fx:id="cbPagado" layoutX="122.0" layoutY="200.0" mnemonicParsing="false" text="Pagado" />
+        <Button layoutX="116.0" layoutY="266.0" mnemonicParsing="false" onAction="#Aceptar" text="Aceptar" />
+        <Button fx:id="btnSalir" layoutX="319.0" layoutY="266.0" mnemonicParsing="false" onAction="#Cerrar" text="Cancelar" />
+        <ComboBox fx:id="comboUsuario" layoutX="116.0" layoutY="32.0" prefWidth="150.0" />
+        <ComboBox fx:id="comboDestino" layoutX="116.0" layoutY="91.0" prefWidth="150.0" />
+        <Label layoutX="36.0" layoutY="36.0" text="Usuario:" />
+        <Label layoutX="36.0" layoutY="95.0" text="Destino" />
+        <Label layoutX="36.0" layoutY="158.0" text="Fecha" />
+    </children>
+</AnchorPane>

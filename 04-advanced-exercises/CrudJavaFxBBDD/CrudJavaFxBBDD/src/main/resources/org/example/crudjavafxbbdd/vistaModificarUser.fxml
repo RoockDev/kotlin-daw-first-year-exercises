@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="583.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.crudjavafxbbdd.ModifcarUserController">
+   <children>
+      <Label layoutX="219.0" layoutY="37.0" text="Modificar Usuario">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblemail" layoutX="131.0" layoutY="89.0" text="Email">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblresultado" layoutX="114.0" layoutY="418.0" text="Resultado">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtemail" layoutX="238.0" layoutY="88.0" promptText="introduce email" />
+      <Label fx:id="lblresultado" layoutX="218.0" layoutY="391.0" prefHeight="77.0" prefWidth="219.0" />
+      <Button fx:id="btnmodificar" layoutX="460.0" layoutY="88.0" mnemonicParsing="false" onAction="#onmodificarbuttonClick" text="Modificar" />
+      <Button fx:id="btnvolver" layoutX="274.0" layoutY="517.0" mnemonicParsing="false" onAction="#onVolverButtonClick" text="Volver" />
+      <Label fx:id="lblnombre" layoutX="132.0" layoutY="197.0" text="Nombre">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblapellidos" layoutX="132.0" layoutY="231.0" text="apellidos">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbledad" layoutX="132.0" layoutY="269.0" text="edad">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblpassword" layoutX="132.0" layoutY="303.0" text="password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtnombre" layoutX="238.0" layoutY="196.0" promptText="introduce nombre" />
+      <TextField fx:id="txtapellidos" layoutX="238.0" layoutY="230.0" promptText="introduce apellidos" />
+      <TextField fx:id="txtedad" layoutX="238.0" layoutY="268.0" promptText="introduce edad" />
+      <TextField fx:id="txtpassword" layoutX="238.0" layoutY="302.0" promptText="introduce password" />
+   </children>
+</AnchorPane>

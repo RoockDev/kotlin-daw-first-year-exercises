@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.crudjavafxbbdd.AgnadirUsuarioController">
+   <children>
+      <Label layoutX="224.0" layoutY="28.0" prefHeight="23.0" prefWidth="113.0" text="añadir usuario">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblemail" layoutX="102.0" layoutY="78.0" prefHeight="23.0" prefWidth="113.0" text="email">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblnombre" layoutX="102.0" layoutY="122.0" prefHeight="23.0" prefWidth="113.0" text="nombre">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblapellidos" layoutX="102.0" layoutY="165.0" prefHeight="23.0" prefWidth="113.0" text="apellidos">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbledad" layoutX="102.0" layoutY="210.0" prefHeight="23.0" prefWidth="113.0" text="edad">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblpassword" layoutX="102.0" layoutY="252.0" prefHeight="23.0" prefWidth="113.0" text="password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtemail" layoutX="224.0" layoutY="77.0" promptText="introduce email" />
+      <TextField fx:id="txtnombre" layoutX="224.0" layoutY="121.0" promptText="introduce nombre" />
+      <TextField fx:id="txtapellidos" layoutX="224.0" layoutY="164.0" promptText="introduce apellidos" />
+      <TextField fx:id="txtedad" layoutX="224.0" layoutY="209.0" promptText="introduce edad" />
+      <TextField fx:id="txtpassword" layoutX="224.0" layoutY="251.0" promptText="introduce password" />
+      <Button fx:id="btnguardar" layoutX="177.0" layoutY="306.0" mnemonicParsing="false" onAction="#onGuardarButtonClick" prefHeight="25.0" prefWidth="72.0" text="Guardar" />
+      <Button fx:id="btnsalir" layoutX="337.0" layoutY="306.0" mnemonicParsing="false" onAction="#onSalirButtonClick" prefHeight="25.0" prefWidth="72.0" text="Salir" />
+      <Label fx:id="lblmensaje" layoutX="65.0" layoutY="358.0" prefHeight="26.0" prefWidth="433.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
