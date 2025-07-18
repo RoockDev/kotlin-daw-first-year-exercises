@@ -1,0 +1,6 @@
+enum class GOBERNADORES {
+    ALEJAMDRO,
+    ISABEL,
+    CONSTANTINO,
+    DESCONOCIDO
+}
