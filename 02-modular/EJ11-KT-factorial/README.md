@@ -2,10 +2,10 @@
 
 ## Enunciado
 
-Calcula modularmente el factorial de un número entero. [cite_start]El factorial es el resultado de multiplicar ese número por todos los números menores que él. [cite: 26]
+Calcula modularmente el factorial de un número entero. El factorial es el resultado de multiplicar ese número por todos los números menores que él. 
 
 ## Ejemplo
 
-$4! [cite_start]= 4 * 3 * 2 * 1 = 24.$ [cite: 27]
+$4! = 4 * 3 * 2 * 1 = 24
 
 ---
