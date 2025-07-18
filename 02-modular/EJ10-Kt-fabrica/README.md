@@ -2,7 +2,7 @@
 
 ## Enunciado
 
-Los empleados de una fábrica trabajan por turnos: diurno y nocturno.Se debe calcular, modularmente, el jornal diario de acuerdo con los siguientes puntos: [cite: 21, 22]
+Los empleados de una fábrica trabajan por turnos: diurno y nocturno.Se debe calcular, modularmente, el jornal diario de acuerdo con los siguientes puntos: 
 
 * La tarifa por horas diurnas es de 20 €. 
 * La tarifa por horas nocturnas es de 35 €. 
