@@ -43,7 +43,7 @@ Esta sección abarca los principios fundamentales de la Programación Orientada 
 
 Contiene proyectos y ejercicios que integran y expanden los conocimientos de POO, incluyendo la persistencia de datos mediante el manejo de ficheros y la interacción con bases de datos.
 
-[Ver proyectos varios](04-proyectos-varios/README.md)
+[Ver proyectos varios](04-advanced-exercises/README.md)
 
 ---
 
