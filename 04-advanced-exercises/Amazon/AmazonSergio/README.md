@@ -44,7 +44,7 @@ Existen tres tipos de máquinas de transporte:
     * Se podrá **seleccionar la máquina** de la que se desea generar el historial.
     * Esta funcionalidad solo se probará para las **máquinas MCG** y solo funcionará después de haber realizado la primera simulación. (Las MCG no se guardan en base de datos; la elección de cómo mantener su estado es del desarrollador).
 
-### Simulación Central (RA5, RA8, RA9)
+### Simulación Central 
 
 La propuesta básica de Amazon para la simulación es la siguiente:
 
