@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.AnimalController"
+            prefHeight="500.0" prefWidth="600.0">
+    <padding>
+        <Insets top="15" right="15" bottom="15" left="15"/>
+    </padding>
+
+    <top>
+        <VBox spacing="10">
+            <Label text="Protectora de Animales HUELLAS" style="-fx-font-size: 20; -fx-font-weight: bold;"/>
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Selecciona un animal:" />
+                <ComboBox fx:id="comboAnimales" prefWidth="200" onAction="#seleccionarAnimal"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <VBox spacing="10">
+            <Label text="Datos del animal" style="-fx-font-size: 16; -fx-font-weight: bold;"/>
+
+            <!-- Datos comunes a todos los animales -->
+            <GridPane hgap="10" vgap="10">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="NEVER" minWidth="100" />
+                    <ColumnConstraints hgrow="ALWAYS" />
+                </columnConstraints>
+
+                <Label text="Nombre:" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+                <TextField fx:id="txtNombre" GridPane.rowIndex="0" GridPane.columnIndex="1" editable="false" />
+
+                <Label text="Tipo:" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+                <TextField fx:id="txtTipo" GridPane.rowIndex="1" GridPane.columnIndex="1" editable="false" />
+
+                <Label text="Sexo:" GridPane.rowIndex="2" GridPane.columnIndex="0" />
+                <TextField fx:id="txtSexo" GridPane.rowIndex="2" GridPane.columnIndex="1" editable="false" />
+
+                <Label text="Edad:" GridPane.rowIndex="3" GridPane.columnIndex="0" />
+                <TextField fx:id="txtEdad" GridPane.rowIndex="3" GridPane.columnIndex="1" editable="false" />
+
+                <Label text="Sociable:" GridPane.rowIndex="4" GridPane.columnIndex="0" />
+                <CheckBox fx:id="chkSociable" GridPane.rowIndex="4" GridPane.columnIndex="1" disable="true" />
+
+                <Label text="Apadrinado:" GridPane.rowIndex="5" GridPane.columnIndex="0" />
+                <CheckBox fx:id="chkApadrinado" GridPane.rowIndex="5" GridPane.columnIndex="1" disable="true" />
+            </GridPane>
+
+            <!-- Datos específicos de Perro -->
+            <TitledPane text="Datos específicos (Perro)" fx:id="panelPerro" expanded="false">
+                <GridPane hgap="10" vgap="10">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="NEVER" minWidth="100" />
+                        <ColumnConstraints hgrow="ALWAYS" />
+                    </columnConstraints>
+
+                    <Label text="Raza:" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+                    <TextField fx:id="txtRaza" GridPane.rowIndex="0" GridPane.columnIndex="1" editable="false" />
+
+                    <Label text="Tamaño (kg):" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+                    <TextField fx:id="txtTamanio" GridPane.rowIndex="1" GridPane.columnIndex="1" editable="false" />
+
+                    <Label text="PPP:" GridPane.rowIndex="2" GridPane.columnIndex="0" />
+                    <CheckBox fx:id="chkPPP" GridPane.rowIndex="2" GridPane.columnIndex="1" disable="true" />
+
+                    <Label text="Leishmania:" GridPane.rowIndex="3" GridPane.columnIndex="0" />
+                    <CheckBox fx:id="chkLeishmania" GridPane.rowIndex="3" GridPane.columnIndex="1" disable="true" />
+                </GridPane>
+            </TitledPane>
+
+            <!-- Datos específicos de Gato -->
+            <TitledPane text="Datos específicos (Gato)" fx:id="panelGato" expanded="false">
+                <GridPane hgap="10" vgap="10">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="NEVER" minWidth="100" />
+                        <ColumnConstraints hgrow="ALWAYS" />
+                    </columnConstraints>
+
+                    <Label text="Esterilizado:" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+                    <CheckBox fx:id="chkEsterilizado" GridPane.rowIndex="0" GridPane.columnIndex="1" disable="true" />
+                </GridPane>
+            </TitledPane>
+        </VBox>
+    </center>
+
+    <bottom>
+        <VBox spacing="15">
+            <Separator />
+            <HBox spacing="10" alignment="CENTER">
+                <Button fx:id="btnSolicitud" text="Realizar Solicitud" onAction="#realizarSolicitud" prefWidth="150" />
+                <Button fx:id="btnGastos" text="Calcular Gastos" onAction="#calcularGastos" prefWidth="150" />
+                <Button fx:id="btnPienso" text="Estimar Pienso" onAction="#estimarPienso" prefWidth="150" />
+            </HBox>
+        </VBox>
+    </bottom>
+
+</BorderPane>

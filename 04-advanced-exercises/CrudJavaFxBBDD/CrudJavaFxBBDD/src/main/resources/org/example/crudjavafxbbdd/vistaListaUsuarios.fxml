@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.crudjavafxbbdd.ListaUsuariosController">
+   <children>
+      <Label layoutX="220.0" layoutY="26.0" prefHeight="17.0" prefWidth="136.0" text="Lista Usuarios">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tvlista" layoutX="98.0" layoutY="100.0" prefHeight="200.0" prefWidth="381.0">
+        <columns>
+          <TableColumn fx:id="cemail" prefWidth="75.0" text="Email" />
+          <TableColumn fx:id="cnombre" prefWidth="75.0" text="Nombre" />
+            <TableColumn fx:id="capellidos" prefWidth="75.0" text="Apellidos" />
+            <TableColumn fx:id="cedad" prefWidth="75.0" text="Edad" />
+            <TableColumn fx:id="crol" prefWidth="75.0" text="Rol" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnvolver" layoutX="245.0" layoutY="361.0" mnemonicParsing="false" onAction="#onVolverButtonClick" text="Volver" />
+      <Label fx:id="lblmensaje" layoutX="91.0" layoutY="309.0" prefHeight="34.0" prefWidth="401.0" />
+   </children>
+</AnchorPane>

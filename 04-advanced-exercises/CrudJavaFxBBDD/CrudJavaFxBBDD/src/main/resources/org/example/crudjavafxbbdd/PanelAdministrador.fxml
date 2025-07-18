@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.crudjavafxbbdd.PanelAdminsitradorController">
+   <children>
+      <Label layoutX="109.0" layoutY="23.0" prefHeight="64.0" prefWidth="383.0" text="Bienvenido al panel del administrador">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="CmbOpcion" layoutX="191.0" layoutY="99.0" onAction="#onComboClick" prefHeight="25.0" prefWidth="185.0" promptText="Selecciona una opcion" />
+      <Button fx:id="BtnVolverALogin" layoutX="228.0" layoutY="369.0" mnemonicParsing="false" onAction="#onVolverALoginbuttonClick" text="Volver a Login" />
+      <Label fx:id="lblmensaje" layoutX="139.0" layoutY="428.0" prefHeight="18.0" prefWidth="322.0" />
+   </children>
+</AnchorPane>

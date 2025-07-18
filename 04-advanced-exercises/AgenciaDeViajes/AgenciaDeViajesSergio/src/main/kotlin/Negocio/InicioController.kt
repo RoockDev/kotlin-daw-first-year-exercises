@@ -1,0 +1,5 @@
+package Negocio
+
+class InicioController {
+    
+}
